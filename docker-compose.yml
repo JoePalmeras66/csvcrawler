@@ -9,3 +9,5 @@ services:
     build: 
       dockerfile: "Dockerfile.txt"
       context: . 
+    volumes:
+      - ./build_output:/home/gradle/src
